@@ -8,19 +8,24 @@
     <link rel="stylesheet" href="all.min.css">
     <link rel="stylesheet" href="style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
 
     <title>Uber Eats</title>
+    
 </head>
 
 <body>
     <header class="header">
         <div class="wrapper">
-            <div class="header_wrapper">
-                <div class="wrapper_logo">
+            <div class="header__wrapper">
+                <div class="wrapper__logo">
                     <img src="images/logo.svg" class="navbar_logo" alt="">
                 </div>
 
-                <div class="header_wrapper_search">
+                <div class="header__wrapper__search">
                     <span class="asap">ASAP</span>
                     <span class="to">to</span>
                     <div class="district">
@@ -30,7 +35,7 @@
 
                 </div>
 
-                <div class="header_wrapper_login">
+                <div class="header__wrapper__login">
                     <div class="buttons__login">
                         <button class="signin btn">Sign In</button>
                         <button class="register btn">Register</button>
@@ -42,17 +47,19 @@
 
             <form action="" class="search__form">
                 <i class="fal fa-search"></i>
-                <input type="text" class="search_form_field" placeholder="Search for restaurant or cuisine">
+                <input type="text" class="search__form__field" placeholder="Search for restaurant or cuisine">
             </form>
 
         </div>
 
-
+    </header>
 
         <div class="main">
             <div class="wrapper">
                 <h1 class="main__wrapper__header">Moscow Restaurants</h1>
                 <div class="main__wrapper">
+
+                     <!--first row-->
                
                         <div class="main__wrapper__restaurants">
                             <img src="images/MC.jpg" alt="MC'donals picture">
@@ -62,28 +69,151 @@
                         </div>
     
                         <div class="main__wrapper__restaurants">
-                            <img src="images/MC.jpg" alt="MC'donals picture">
-                            <p class="main__wrapper__restaurants__name">Макдоналдс — Газетный</p>
-                            <p class="main__wrapper__restaurants__price">₽₽ • Бургеры</p>
-                            <p class="main__wrapper__restaurants__prepTime">25 - 35 Min</p>
+                            <img src="images/DimSum.jpg" alt="DimSum & Co — ЦДМ picture">
+                            <p class="main__wrapper__restaurants__name">DimSum & Co — ЦДМ</p>
+                            <p class="main__wrapper__restaurants__price">₽ • Японская • Китайская • Азиатскаяы</p>
+                            <p class="main__wrapper__restaurants__prepTime">40 - 50 Min</p>
                         </div>
     
                         <div class="main__wrapper__restaurants">
-                            <img src="images/MC.jpg" alt="MC'donals picture">
-                            <p class="main__wrapper__restaurants__name">Макдоналдс — Газетный</p>
-                            <p class="main__wrapper__restaurants__price">₽₽ • Бургеры</p>
+                            <img src="images/ДвижОК.jpg" alt="ДвижОК — Манежная picture">
+                            <p class="main__wrapper__restaurants__name">ДвижОК — Манежная</p>
+                            <p class="main__wrapper__restaurants__price">₽ • Американская • Европейская</p>
+                            <p class="main__wrapper__restaurants__prepTime">35 - 45 Min</p>
+                        </div>
+
+
+
+                        <!--second row-->
+
+                        <div class="main__wrapper__restaurants">
+                            <img src="images/НЯ.jpg" alt="НЯ — NHA picture">
+                            <p class="main__wrapper__restaurants__name">НЯ — NHA</p>
+                            <p class="main__wrapper__restaurants__price">₽₽ • Вьетнамская</p>
+                            <p class="main__wrapper__restaurants__prepTime">30 - 40 Min</p>
+                        </div>
+
+                        <div class="main__wrapper__restaurants">
+                            <img src="images/точка дзы.jpg" alt="Точка Дзы — Цветной picture">
+                            <p class="main__wrapper__restaurants__name">Точка Дзы — Цветной</p>
+                            <p class="main__wrapper__restaurants__price">₽₽ • Вьетнамская</p>
+                            <p class="main__wrapper__restaurants__prepTime">40 - 50 Min</p>
+                        </div>
+
+                        <div class="main__wrapper__restaurants">
+                            <img src="images/cinnabon.jpg" alt="Cinnabonpicture">
+                            <p class="main__wrapper__restaurants__name">Cinnabon</p>
+                            <p class="main__wrapper__restaurants__price">₽ • Выпечка • Десерты • Капкейки</p>
                             <p class="main__wrapper__restaurants__prepTime">25 - 35 Min</p>
                         </div>
                   
 
+                         <!--third row-->
+                  
+                  
+                         <div class="main__wrapper__restaurants">
+                            <img src="images/pizzalove.jpg" alt="PIZZELOVE picture">
+                            <p class="main__wrapper__restaurants__name">PIZZELOVE</p>
+                            <p class="main__wrapper__restaurants__price">₽₽ • Пицца</p>
+                            <p class="main__wrapper__restaurants__prepTime">15 - 25 Min</p>
+                        </div>
 
+                        <div class="main__wrapper__restaurants">
+                            <img src="images/Zю кафе.jpg" alt="Zю кафе — Тверская picture">
+                            <p class="main__wrapper__restaurants__name">Zю кафе — Тверская</p>
+                            <p class="main__wrapper__restaurants__price">₽₽ • Японская</p>
+                            <p class="main__wrapper__restaurants__prepTime">25 - 35 Min</p>
+                        </div>
+
+                        <div class="main__wrapper__restaurants">
+                            <img src="images/Bar BQ cafe.jpg" alt="Bar BQ Cafe — Манежная picture">
+                            <p class="main__wrapper__restaurants__name">Bar BQ Cafe — Манежная</p>
+                            <p class="main__wrapper__restaurants__price">₽₽₽ • Европейская</p>
+                            <p class="main__wrapper__restaurants__prepTime">30 - 40 Min</p>
+                        </div>
                       
                 </div>
+
+
             </div>
         </div>
-    </header>
 
 
+
+        <footer>
+            <div class="wrapper">
+               
+                <div class="wrapper__footer">
+                    <img src="images/white-logo.svg" alt="logo" class="footer__logo">
+                    <hr class="footer__line">
+            
+                        <div class="wrapper__footer__navbar">
+                            <form action="">         
+                                <!--Проблема со вставкой иконки в форму!!-->
+                                <select name="languages" id="footer__select__form">
+                                    <i class="fal fa-globe"></i>    
+                                    
+                                    <option value="">ENGLISH</option>
+                                    <option value="">RUSSIAN</option>
+                                </select>
+
+                                <div class="ubereats">
+                                    <p class="footer__ubereats"><span class="hash">#</span>UberEats</p>
+                                </div>
+
+                                
+                                <ul class="footer__list__icon">
+                                    <li id="footer__list__socials"> <i class="fab fa-facebook-square"></i></li>
+                                    <li id="footer__list__socials"><i class="fab fa-twitter-square"></i></li>
+                                    <li id="footer__list__socials"><i class="fab fa-instagram"></i></li>
+                               </ul>
+                            </form>
+                        
+            
+                        
+                            <ul class="footer_list">
+                                <a href=""><li>About UberEats</li></a>
+                                <a href=""><li>Become a Delivery Partner</li></a>
+                                <a href=""><li>Become a Restaurant Partner</li></a>
+                            </ul>
+
+                            <ul>
+                                <a href=""><li>About UberEats</li></a>
+                                <a href=""><li>Become a Delivery Partner</li></a>
+                                <a href=""><li>Become a Restaurant Partner</li></a>
+                            </ul>
+                        </div>
+
+            </div>
+        </footer>
+
+
+
+
+       <!--
+          
+      
+                   
+                    
+                    <div class="footer__navbar">
+                        <div class="footer__select">
+                            
+                            <span class="footer__span__hash">#</span>
+                            <span class="footer__span">UberEats</span>
+                        </div>
+
+                       
+                       
+                        
+                        
+                        <hr class="footer__line">
+
+                    </div> 
+      
+                    <hr>
+                </div>
+
+       -->
 
 
 </body>
