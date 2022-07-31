@@ -5,7 +5,7 @@
     font-family: 'Roboto';
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -106,7 +106,7 @@ a{
 
 .search__form__field {
     border: none;
-    width: 200px;
+    width: 300px;
     margin-left: 15px;
     font-family: 'Roboto';
 }
@@ -203,7 +203,7 @@ a{
     margin-bottom: 33px;
 }
 
- 
+
 .footer__span__hash {
     color: #49A144;
 }
@@ -213,11 +213,11 @@ a{
     padding-bottom: 20px;
 }
 
-.footer__select{
+.footer__select {
     padding-bottom: 20px;
 }
 
-.footer__list__icon{
+.footer__list__icon {
     list-style-type: none;
     display: flex;
     margin-bottom: 60px;
@@ -225,36 +225,80 @@ a{
 
 
 
-.footer__list__icon li i{
-    margin-right: 20px; 
+.footer__list__icon li i {
+    margin-right: 20px;
     font-size: 30px;
 }
 
 
 
-.wrapper__footer__navbar{
+.wrapper__footer__navbar {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 
-.wrapper__footer li{
+.wrapper__footer li {
 
     list-style-type: none;
 }
 
- .ubereats{
-   display: flex; 
- }
- 
- .hash{
-    color: #49A144;
- }
+.ubereats {
+    display: flex;
+    padding-bottom: 22px;
+}
 
- .footer__ubereats{
+.hash {
+    color: #49A144;
+}
+
+.footer__ubereats {
     color: white;
- }
+}
+
+.footer_list {
+    padding-top: 7px;
+}
+
+.footer_list li {
+    padding-bottom: 23px;
+    color: #FFFFFF;
+}
+
+
+.footer__platforms {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+
+
+.footer__platforms img {
+    margin: 0 20px;
+}
+
+
+
+.footer__last__navbar li {
+    color: #FFFFFF;
+    margin-right: 30px;
+}
+
+.footer__last__list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    margin-bottom: 40px;
+
+}
+
+.footer__last__navbar li::after {
+    margin-right: 200px;
+}
+
 
 /*Footer ends*/
 
@@ -264,8 +308,23 @@ a{
 
 
 
-@media (max-width) {
-    .main__wrapper__header{
-        
+@media (max-width: 768px) {
+
+    .header__wrapper{
+        width: 768px;
     }
+
+
+    
+    .main__wrapper{
+        justify-content: flex-start;
+    }
+
+
+    .img__responsive{
+        width: 368px;
+        height: 256px;
+    }
+
+  
 }
